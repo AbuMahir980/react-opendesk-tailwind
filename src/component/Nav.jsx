@@ -7,6 +7,17 @@ const Nav = () => {
 						<img src={logo} alt="opendeskLogo" />
 					</a>
 				</div>
+				<ul>
+					<li>
+						<a href="#">Furniture</a>
+					</li>
+					<li>
+						<a href="#">Workspaces</a>
+					</li>
+					<li>
+						<a href="#">Blog</a>
+					</li>
+				</ul>
 			</section>
 		);
 }
