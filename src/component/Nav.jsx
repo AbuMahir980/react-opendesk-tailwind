@@ -2,7 +2,7 @@ import logo from '../assets/images/opendesk-logo.png'
 const Nav = () => {
     return (
 			<section className="flex justify-between items-center h-[12vh] border border-b-[1px]-white">
-				<div className="">
+				<div className="flex justify-start items-center h-4">
 					<div className="">
 						<a href="#">
 							<img src={logo} alt="opendeskLogo" />
