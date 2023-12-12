@@ -1,11 +1,11 @@
 import Footer from "../component/Footer"
 import Nav from "../component/Nav"
 
-const Container = () => {
+const Container = ({children}) => {
     return(
         <>
             <Nav />
-
+            {children}
             <Footer />
         </>
     )
