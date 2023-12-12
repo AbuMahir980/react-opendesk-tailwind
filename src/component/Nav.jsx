@@ -3,20 +3,26 @@ const Nav = () => {
     return (
 			<section className="flex justify-between items-center h-[12vh] border border-b-[1px]-white">
 				<div className="flex justify-start items-center h-4">
-					<div className="">
+					<div className="pt-[18px] pr-4 pb-[15px] pl-[37px] mr-10">
 						<a href="#">
-							<img src={logo} alt="opendeskLogo" />
+							<img src={logo} alt="opendeskLogo" className="" />
 						</a>
 					</div>
-					<ul>
+					<ul className="flex justify-between items-center gap-10 pt-[15px] px-[30px] pb-[1.20rem]">
 						<li>
-							<a href="#">Furniture</a>
+							<a href="#" className="text-[#777778] text-base">
+								Furniture
+							</a>
 						</li>
 						<li>
-							<a href="#">Workspaces</a>
+							<a href="#" className="text-[#777778] text-base">
+								Workspaces
+							</a>
 						</li>
 						<li>
-							<a href="#">Blog</a>
+							<a href="#" className="text-[#777778] text-base">
+								Blog
+							</a>
 						</li>
 					</ul>
 				</div>
